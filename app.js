@@ -38,4 +38,13 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+app.get('/test', function(req, res) {
+  // this.mysqlObj.main()
+  res.send('test')
+})
+
+
+
+
+
 module.exports = app;
